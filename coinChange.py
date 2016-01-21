@@ -11,7 +11,7 @@ import sys, collections
 # Auxiliary Function to do the calculation  
 def processChange(balance,denom):
     numOfCoin = balance/denom           # python integer division 
-    remainBal = balance%denom           # python modulus 
+    remainBal = balance%denom           # python modulo operator creates remainder 
     return (numOfCoin, remainBal)
 
 
